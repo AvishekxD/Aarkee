@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7646b156-38f2-4fc5-8b44-72467ce259c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/puter.hosting.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ai.action.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/visualizer.$id.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/visualizer.$id.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/puter.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/puter.action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/type.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/puter.hosting.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/puter.hosting.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="30" />
+    <option name="cachedIndexableFilesCount" value="31" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,61 +28,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000019963335" />
-      <entry key="MS500" value="1.0181989624539112" />
-      <entry key="S2" value="1.3732649871091076" />
-      <entry key="S5" value="2.0165141146845214" />
-      <entry key="S10" value="3.530608748239229" />
-      <entry key="S30" value="8.64765371562007" />
-      <entry key="S60" value="13.853686235321415" />
-      <entry key="M2" value="19.91753064331917" />
-      <entry key="M5" value="35.781084083249006" />
-      <entry key="M10" value="75.00579421970134" />
-      <entry key="M15" value="116.76951633194538" />
-      <entry key="M30" value="226.22112723287245" />
-      <entry key="H1" value="419.55272274323676" />
-      <entry key="H2" value="720.3372528707598" />
-      <entry key="H4" value="1039.3110854033823" />
-      <entry key="D1" value="1492.130464487265" />
-      <entry key="W1" value="1595.7998426549195" />
+      <entry key="MS100" value="1.0000000000006126" />
+      <entry key="MS500" value="1.0038885730892568" />
+      <entry key="S2" value="1.403302068730493" />
+      <entry key="S5" value="2.367250570414126" />
+      <entry key="S10" value="3.2720128820004213" />
+      <entry key="S30" value="4.960316981126308" />
+      <entry key="S60" value="7.192515958753607" />
+      <entry key="M2" value="13.357082512316214" />
+      <entry key="M5" value="37.37691447746707" />
+      <entry key="M10" value="75.16063334473844" />
+      <entry key="M15" value="110.19602861735979" />
+      <entry key="M30" value="215.46108243007873" />
+      <entry key="H1" value="421.44308329992634" />
+      <entry key="H2" value="764.7614127031559" />
+      <entry key="H4" value="1168.016044706738" />
+      <entry key="D1" value="1803.7197138379438" />
+      <entry key="W1" value="1958.4986767594676" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.8731786637865396E-174" />
-      <entry key="MS500" value="1.797651891719189E-35" />
-      <entry key="S2" value="2.3566673850284957E-9" />
-      <entry key="S5" value="4.966637183075954E-4" />
-      <entry key="S10" value="0.033431082464641396" />
-      <entry key="S30" value="0.679640231666425" />
-      <entry key="S60" value="1.5825413694664492" />
-      <entry key="M2" value="2.5124123098014755" />
-      <entry key="M5" value="4.641669651893678" />
-      <entry key="M10" value="10.178712839268412" />
-      <entry key="M15" value="15.775694413165581" />
-      <entry key="M30" value="29.511980865363203" />
-      <entry key="H1" value="52.58725098401884" />
-      <entry key="H2" value="86.48392528981599" />
-      <entry key="H4" value="120.91797383760856" />
-      <entry key="D1" value="168.40128955788333" />
-      <entry key="W1" value="179.1223219982438" />
+      <entry key="MS100" value="9.893871838168748E-76" />
+      <entry key="MS500" value="9.990542108257746E-16" />
+      <entry key="S2" value="2.2665294034808324E-4" />
+      <entry key="S5" value="0.06527003835105244" />
+      <entry key="S10" value="0.5632796461599419" />
+      <entry key="S30" value="3.3271062777216147" />
+      <entry key="S60" value="6.436841376981779" />
+      <entry key="M2" value="11.358948836820417" />
+      <entry key="M5" value="21.7517864658892" />
+      <entry key="M10" value="33.52941514602222" />
+      <entry key="M15" value="41.65739097379732" />
+      <entry key="M30" value="58.14381731069204" />
+      <entry key="H1" value="83.24587775564063" />
+      <entry key="H2" value="122.13741707107116" />
+      <entry key="H4" value="166.20113109471671" />
+      <entry key="D1" value="233.86082599541274" />
+      <entry key="W1" value="250.1182522502556" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.806675924589428E-4" />
-      <entry key="MS500" value="0.23421248580388493" />
-      <entry key="S2" value="1.000196294521126" />
-      <entry key="S5" value="1.800206374809095" />
-      <entry key="S10" value="3.3936232931862125" />
-      <entry key="S30" value="9.181241903324235" />
-      <entry key="S60" value="15.315402065848517" />
-      <entry key="M2" value="22.343824153357" />
-      <entry key="M5" value="40.3599766046859" />
-      <entry key="M10" value="85.11503061125822" />
-      <entry key="M15" value="132.47116605740828" />
-      <entry key="M30" value="255.66028045009432" />
-      <entry key="H1" value="472.07432210457415" />
-      <entry key="H2" value="806.7677605184523" />
-      <entry key="H4" value="1160.1920965121421" />
-      <entry key="D1" value="1660.5232607097182" />
-      <entry key="W1" value="1774.9208763940408" />
+      <entry key="MS100" value="0.8888426811671147" />
+      <entry key="MS500" value="0.9805055711527955" />
+      <entry key="S2" value="1.3804172293818548" />
+      <entry key="S5" value="2.331031432306185" />
+      <entry key="S10" value="3.665158132309622" />
+      <entry key="S30" value="8.068254973064457" />
+      <entry key="S60" value="13.44003248402446" />
+      <entry key="M2" value="24.5592262039049" />
+      <entry key="M5" value="58.988171809687664" />
+      <entry key="M10" value="108.56565664638629" />
+      <entry key="M15" value="151.74414285273508" />
+      <entry key="M30" value="273.51956508772093" />
+      <entry key="H1" value="504.6183190850195" />
+      <entry key="H2" value="886.840576029711" />
+      <entry key="H4" value="1334.1749966682626" />
+      <entry key="D1" value="2037.5701807379637" />
+      <entry key="W1" value="2208.6153351429703" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -96,30 +94,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.puter.action.ts.executor": "Debug",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "hosting-images",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\abmee\\Desktop\\projects\\aarkee\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.puter.action.ts.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hosting-images&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\abmee\\Desktop\\projects\\aarkee\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="puter.action.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/puter.action.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/lib">
       <method v="2" />
@@ -146,7 +144,8 @@
       <updated>1782448085102</updated>
       <workItem from="1782448085922" duration="15000" />
       <workItem from="1782448127748" duration="16696000" />
-      <workItem from="1782519699789" duration="5506000" />
+      <workItem from="1782519699789" duration="10477000" />
+      <workItem from="1782712094509" duration="1581000" />
     </task>
     <servers />
   </component>
